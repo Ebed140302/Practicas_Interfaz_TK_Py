@@ -3,6 +3,7 @@ from tkinter import filedialog, messagebox
 from tkinter.ttk import Progressbar
 import pytube
 from PIL import Image, ImageTk
+import requests
 
 # Función para descargar el video
 def download_video():
